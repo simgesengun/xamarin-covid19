@@ -14,8 +14,8 @@
             </Frame>
             <Label Text="Username" Style="{StaticResource MediumTitle}" HorizontalOptions="Center"/>
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                <Label Text="Age: " Style="{StaticResource MediumTitle}" />
-                <Label Text="Age" FontSize="18"/>
+                <Label Text="Age: " Style="{StaticResource MediumTitle}" VerticalOptions="Center" />
+                <Label Text="Age" FontSize="18" VerticalOptions="Center"/>
             </StackLayout>
         </StackLayout>
                 <Frame Margin="0" Padding="0" BackgroundColor="Transparent" VerticalOptions="End">
