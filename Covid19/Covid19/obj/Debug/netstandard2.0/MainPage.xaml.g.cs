@@ -29,7 +29,7 @@ namespace Covid19 {
         private global::Sharpnado.Tabs.BottomTabItem Home;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Sharpnado.Tabs.BottomTabItem Prohibitions;
+        private global::Sharpnado.Tabs.BottomTabItem Curfew;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Sharpnado.Tabs.BottomTabItem Local;
@@ -44,7 +44,7 @@ namespace Covid19 {
             Switcher = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Sharpnado.Tabs.ViewSwitcher>(this, "Switcher");
             TabHost = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Sharpnado.Tabs.TabHostView>(this, "TabHost");
             Home = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Sharpnado.Tabs.BottomTabItem>(this, "Home");
-            Prohibitions = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Sharpnado.Tabs.BottomTabItem>(this, "Prohibitions");
+            Curfew = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Sharpnado.Tabs.BottomTabItem>(this, "Curfew");
             Local = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Sharpnado.Tabs.BottomTabItem>(this, "Local");
             World = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Sharpnado.Tabs.BottomTabItem>(this, "World");
         }

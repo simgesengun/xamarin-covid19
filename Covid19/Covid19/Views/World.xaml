@@ -1,10 +1,54 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Covid19.Views.World">
-  <ContentView.Content>
-      <StackLayout>
-          <Label Text="Hello Xamarin.Forms!" />
-      </StackLayout>
-  </ContentView.Content>
+             x:Class="Covid19.Views.World"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView">
+    <ContentView.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="#606060" />
+            <Setter Property="FontFamily" Value="Poppins"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="HorizontalOptions" Value="Center"/>
+        </Style>
+        <Style x:Key="MediumTitle" TargetType="Label">
+            <Setter Property="TextColor" Value="#303030" />
+            <Setter Property="FontFamily" Value="PoppinsBold"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="HorizontalOptions" Value="Center"/>
+        </Style>
+    </ContentView.Resources>
+    <ContentView.Content>
+        <ScrollView>
+            <Grid RowDefinitions="250,auto" RowSpacing="15">
+                <yummy:PancakeView Grid.Row="0"
+                                   CornerRadius="0,0,100,100" BackgroundColor="{x:DynamicResource MainBlue}"
+                                   HeightRequest="250" Padding="0" Margin="0">
+                    <Image Source="v_world.png" TranslationY="90"/>
+                </yummy:PancakeView>
+                <Label Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Start"
+                             Margin="0,40,0,0" Text="World Statistics" TextColor="White" FontAttributes="Bold" FontSize="20"/>
+                <StackLayout Grid.Row="2" Margin="20,0,20,20">
+                    <Grid ColumnDefinitions="40,*,52,52,52" ColumnSpacing="10" Padding="20,0">
+                        <Label Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Start"
+                               Style="{StaticResource MediumTitle}" Text="Location"/>
+                        <Label Grid.Column="2" Style="{StaticResource MediumTitle}" Text="Cases"/>
+                        <Label Grid.Column="3" Style="{StaticResource MediumTitle}" Text="Recovered"/>
+                        <Label Grid.Column="4" Style="{StaticResource MediumTitle}" Text="Deaths"/>
+                    </Grid>
+                    <Frame CornerRadius="20" Padding="20,10">
+                        <Grid ColumnDefinitions="40,*,52,52,52" ColumnSpacing="10">
+                            <Image Grid.Column="0" Source="f_turkey.png" VerticalOptions="Center"/>
+                            <Label Grid.Column="1" Style="{StaticResource SmallTitle}" VerticalOptions="Center"
+                                   Text="Country Name"/>
+                            <Label Grid.Column="2" Text="34"/>
+                            <Label Grid.Column="3" Text="34"/>
+                            <Label Grid.Column="4" Text="34"/>
+                        </Grid>
+                    </Frame>
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </ContentView.Content>
 </ContentView>

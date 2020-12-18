@@ -16,7 +16,7 @@ namespace Covid19.Data
             _database.CreateTableAsync<User>().Wait();
         }
 
-        public Task<List<User>> GetUserAsync()
+        public Task<List<User>> GetUsersAsync()
         {
             return _database.Table<User>().ToListAsync();
         }
@@ -29,6 +29,10 @@ namespace Covid19.Data
         public Task<int> SaveUserAsync(User user)
         {
             return _database.InsertAsync(user);
+        }
+        public Task<User> GetUserAsync(string name, string password)
+        {
+            return _database.Table<User>().Where(f => (f.email == name || f.username == name) && f.password == password).FirstAsync();
         }
         public async Task<bool> userExistsAsync(string name, string password)
         {

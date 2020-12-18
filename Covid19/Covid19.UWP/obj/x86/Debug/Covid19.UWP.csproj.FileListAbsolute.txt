@@ -164,3 +164,4 @@ D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\obj\x86\Debug\ProjectArchi
 D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\obj\x86\Debug\.winmd_cache\$CompositionDeviceHelper.winmd_637239255440000000.json
 D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_637214426760000000.json
 D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637112498540000000.json
+D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\bin\x86\Debug\Xamarin.Forms.PancakeView.dll

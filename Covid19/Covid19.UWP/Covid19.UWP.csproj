@@ -130,12 +130,24 @@
     <Content Include="Assets\Wide310x150Logo.scale-100.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
+    <Content Include="avatar.png" />
+    <Content Include="caugh.png" />
     <Content Include="check.png" />
     <Content Include="check_filled.png" />
+    <Content Include="fever.png" />
+    <Content Include="headache.png" />
     <Content Include="main.png" />
+    <Content Include="mdp_login.png" />
     <Content Include="password.png" />
     <Content Include="password_hide.png" />
     <Content Include="Properties\Default.rd.xml" />
+    <Content Include="tab_home.png" />
+    <Content Include="tab_local.png" />
+    <Content Include="tab_curfew.png" />
+    <Content Include="tab_world.png" />
+    <Content Include="v_home.png" />
+    <Content Include="wash_hands.png" />
+    <Content Include="wear_mask.png" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -157,6 +169,9 @@
     <PackageReference Include="Xamarin.Forms" Version="4.8.0.1821" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.11" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+    <PackageReference Include="Xamarin.Forms.PancakeView">
+      <Version>2.3.0.759</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Covid19\Covid19.csproj">

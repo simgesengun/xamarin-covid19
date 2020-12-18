@@ -4,7 +4,8 @@
              x:Class="Covid19.MainPage"
              xmlns:tabs="clr-namespace:Sharpnado.Tabs;assembly=Sharpnado.Tabs"
              xmlns:sh="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
-             xmlns:views="clr-namespace:Covid19.Views">
+             xmlns:views="clr-namespace:Covid19.Views"
+             xmlns:data="clr-namespace:Covid19.Data">
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style x:Key="BottomTabStyle" TargetType="tabs:BottomTabItem">
@@ -24,8 +25,8 @@
                        Animate="False"
                        SelectedIndex="{Binding SelectedViewModelIndex, 
                                                Mode=TwoWay}">
-                <views:Home BindingContext="{Binding Home}" />
-                <views:Prohibitions BindingContext="{Binding Prohibitions}" />
+                <views:Home BindingContext="{Binding Home}"/>
+                <views:Curfew BindingContext="{Binding Curfew}" />
                 <views:Local BindingContext="{Binding Local}" />
                 <views:World BindingContext="{Binding World}" />
             </tabs:ViewSwitcher>
@@ -42,8 +43,8 @@
                                         x:Name="Home"/>
 
                         <tabs:BottomTabItem Style="{StaticResource BottomTabStyle}"
-                                        IconImageSource="tab_prohibitions.png" 
-                                        x:Name="Prohibitions"/>
+                                        IconImageSource="tab_curfew.png" 
+                                        x:Name="Curfew"/>
 
                         <tabs:BottomTabItem Style="{StaticResource BottomTabStyle}"
                                         IconImageSource="tab_local.png"

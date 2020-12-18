@@ -6,20 +6,16 @@
              xmlns:vm="clr-namespace:Covid19.Models">
     <ContentPage.Resources>
         <ResourceDictionary>
-            <Style x:Key="EntryFrame" TargetType="Frame">
+            <Style TargetType="Frame">
                 <Setter Property="BackgroundColor" Value="White"/>
-                <Setter Property="BorderColor" Value="DarkGray"/>
-                <Setter Property="HeightRequest" Value="50"/>
-                <Setter Property="CornerRadius" Value="20"/>
-                <Setter Property="Padding" Value="0"/>
-                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
-            </Style>
-            <Style x:Key="Entry" TargetType="Entry">
-                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
-                <Setter Property="ClearButtonVisibility" Value="WhileEditing"/>
-                <Setter Property="IsSpellCheckEnabled" Value="False"/>
-            </Style>
-            <cn:BoolToIconConverter x:Key="BoolToIconConverter"/>
+                    <Setter Property="BorderColor" Value="DarkGray"/>
+                    <Setter Property="Margin" Value="0,10,0,0"/>
+                    <Setter Property="HeightRequest" Value="50"/>
+                    <Setter Property="CornerRadius" Value="20"/>
+                    <Setter Property="Padding" Value="0"/>
+                    <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+                </Style>
+                <cn:BoolToIconConverter x:Key="BoolToIconConverter"/>
         </ResourceDictionary>
     </ContentPage.Resources>
     <ContentPage.Content>
@@ -30,12 +26,13 @@
                 </StackLayout.BindingContext>
                 <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
                     <Label HorizontalTextAlignment="Center"
-                           Text="Register" FontSize="38" TextColor="Black"/>
+                           Text="Register"
+                           Style="{StaticResource Title}"/>
                     <Label HorizontalTextAlignment="Center"
                            Text="Enter your details for your profile information"/>
                 </StackLayout>
                 <Frame>
-                    <StackLayout Orientation="Horizontal" Padding="15,0,5,0">
+                    <StackLayout Orientation="Horizontal" Padding="15,0">
                         <Entry Text="{Binding Username}"
                                Placeholder="Username"/>
                         <ImageButton BackgroundColor="Transparent"
@@ -68,7 +65,7 @@
                            Placeholder="Date of Birth (dd/mm/yyyy)"
                            ReturnType="Done"/>
                 </Frame>
-                <Button Text="REGISTER" Command="{Binding RegisterCommand}"/>
+                <Button Text="Register" Command="{Binding RegisterCommand}"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

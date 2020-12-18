@@ -4,6 +4,9 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Covid19.Data;
 
+[assembly: ExportFont("Poppins-Bold.ttf", Alias = "PoppinsBold")]
+[assembly: ExportFont("Poppins-Italic.ttf", Alias = "PoppinsItalic")]
+[assembly: ExportFont("Poppins-Regular.ttf", Alias = "Poppins")]
 namespace Covid19
 {
     public partial class App : Application

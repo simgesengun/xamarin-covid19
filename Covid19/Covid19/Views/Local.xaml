@@ -1,10 +1,71 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Covid19.Views.Local">
-  <ContentView.Content>
-      <StackLayout>
-          <Label Text="Hello Xamarin.Forms!" />
-      </StackLayout>
-  </ContentView.Content>
+             x:Class="Covid19.Views.Local"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView">
+    <ContentView.Resources>
+        <Style x:Key="SmallTitle" TargetType="Label">
+            <Setter Property="TextColor" Value="#505050" />
+            <Setter Property="FontFamily" Value="PoppinsBold"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="HorizontalOptions" Value="Center"/>
+        </Style>
+        <Style x:Key="MediumTitle" TargetType="Label">
+            <Setter Property="TextColor" Value="#303030" />
+            <Setter Property="FontFamily" Value="PoppinsBold"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="HorizontalOptions" Value="Center"/>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="#606060" />
+            <Setter Property="FontFamily" Value="Poppins"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="HorizontalOptions" Value="Center"/>
+        </Style>
+    </ContentView.Resources>
+    <ContentView.Content>
+        <ScrollView>
+            <Grid RowDefinitions="250,auto" RowSpacing="15">
+                <yummy:PancakeView Grid.Row="0"
+                                   CornerRadius="0,0,100,100" BackgroundColor="{x:DynamicResource MainBlue}"
+                                   HeightRequest="250" Padding="0" Margin="0">
+                    <Image Source="v_local.png" TranslationY="90"/>
+                </yummy:PancakeView>
+                <Label Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Start"
+                             Margin="0,40,0,0" Text="Local Statistics" TextColor="White" FontAttributes="Bold" FontSize="20"/>
+                <Grid Grid.Row="2" ColumnDefinitions="*,*" BackgroundColor="Transparent" Padding="20,0,20,20">
+                    <Frame Grid.Column="0" CornerRadius="20" Padding="10">
+                        <StackLayout HorizontalOptions="Center">
+                            <Label Style="{StaticResource MediumTitle}" Text="Today"/>
+                            <Label Style="{StaticResource SmallTitle}" Text="Test Number"/>
+                            <Label Text="205.809"/>
+                            <Label Style="{StaticResource SmallTitle}" Text="Case Number"/>
+                            <Label Text="26.410"/>
+                            <Label Style="{StaticResource SmallTitle}" Text="Patient Number"/>
+                            <Label Text="4.103"/>
+                            <Label Style="{StaticResource SmallTitle}" Text="Dead Number"/>
+                            <Label Text="246"/>
+                            <Label Style="{StaticResource SmallTitle}" Text="Healed Number"/>
+                            <Label Text="31.945"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame Grid.Column="1" CornerRadius="20" Padding="10">
+                        <StackLayout HorizontalOptions="Center">
+                            <Label Style="{StaticResource MediumTitle}" Text="Total"/>
+                            <Label Style="{StaticResource SmallTitle}" Text="Test Number"/>
+                            <Label Text="22.107.503"/>
+                            <Label Style="{StaticResource SmallTitle}" Text="Case Number"/>
+                            <Label Text="1.982.090"/>
+                            <Label Style="{StaticResource SmallTitle}" Text="Patient Number"/>
+                            <Label Text="17.610"/>
+                            <Label Style="{StaticResource SmallTitle}" Text="Dead Number"/>
+                            <Label Text="5.707"/>
+                            <Label Style="{StaticResource SmallTitle}" Text="Healed Number"/>
+                            <Label Text="1.753.552"/>
+                        </StackLayout>
+                    </Frame>
+                </Grid>
+            </Grid>
+        </ScrollView>
+    </ContentView.Content>
 </ContentView>

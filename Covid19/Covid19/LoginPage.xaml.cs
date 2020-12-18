@@ -17,8 +17,8 @@ namespace Covid19
         public LoginPage()
         {
             InitializeComponent();
-            // uncomment below line to see existing users 
-            //getUsers();
+            // uncomment below line to see existing users
+            getUsers();
         }
         async void OnSignUpButtonClicked(object sender, EventArgs e)
         {
@@ -27,10 +27,10 @@ namespace Covid19
         }
         async void getUsers()
         {
-            List<User> users = await App.Database.GetUserAsync();
+            List<User> users = await App.Database.GetUsersAsync();
             foreach (User user in users)
             {
-                popupUsers += "ID = " + user.Id + "\nEmail = " + user.email + "\nPassword = " + user.password + "\n";
+                popupUsers += "ID = " + user.Id + "\nUsername = " + user.username + "\nEmail = " + user.email + "\nPassword = " + user.password + "\n";
             }
             await DisplayAlert("Users", popupUsers, "OK");
 
@@ -38,18 +38,20 @@ namespace Covid19
 
         async void OnLoginButtonClicked(object sender, EventArgs e)
         {
-            bool exists = await App.Database.userExistsAsync(emailEntry.Text, passwordEntry.Text);
-            passwordEntry.Text = string.Empty;
+            bool exists = await App.Database.userExistsAsync(nameEntry.Text, passwordEntry.Text);
             if (exists)
             {
-                emailEntry.Text = string.Empty;
-                await Navigation.PushModalAsync(new MainPage());
+                User user = await App.Database.GetUserAsync(nameEntry.Text, passwordEntry.Text);
+                passwordEntry.Text = string.Empty;
+                nameEntry.Text = string.Empty;
+                await Navigation.PushModalAsync(new MDP());
             }
             else
             {
-                if (await DisplayAlert("Invalid email or password", "Would you like to register?", "Sign Up", "Try Again"))
+                if (await DisplayAlert("Invalid email, username or password", "Would you like to register?", "Sign Up", "Try Again"))
                 {
-                    emailEntry.Text = string.Empty;
+                    passwordEntry.Text = string.Empty;
+                    nameEntry.Text = string.Empty;
                     await Navigation.PushAsync(new RegisterPage());
                 }
             }
@@ -69,16 +71,19 @@ namespace Covid19
                 passwordEntry.IsPassword = true;
             }
         }
-        void emailCheck(object sender, EventArgs e)
+        void nameCheck(object sender, EventArgs e)
         {
-            if (IsValid(emailEntry.Text))
+            if (IsValid(nameEntry.Text))
                 emailImg.Source = "check_filled.png";
             else
                 emailImg.Source = "check.png";
         }
-        public bool IsValid(string emailaddress)
+        public bool IsValid(string name)
         {
-            return Regex.IsMatch(emailaddress, @"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$");
+            if (Regex.IsMatch(name, @"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$") ||
+                Regex.IsMatch(name, @"^(?!.*[-_]{2,})(?=^[^-_].*[^-_]$)[\w\s-]{3,9}$"))
+                return true;
+            else return false;
         }
     }
 }

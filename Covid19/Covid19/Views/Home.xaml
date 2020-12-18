@@ -1,10 +1,66 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
              x:Class="Covid19.Views.Home">
-  <ContentView.Content>
-      <StackLayout>
-          <Label Text="Hello Xamarin.Forms!" />
-      </StackLayout>
+    <ContentView.Content>
+        <ScrollView>
+            <Grid RowDefinitions="250,auto" RowSpacing="15">
+                <yummy:PancakeView Grid.Row="0"
+                                   CornerRadius="0,0,100,100" BackgroundColor="{x:DynamicResource MainBlue}"
+                                   HeightRequest="250" Padding="0" Margin="0">
+                    <Image Source="v_home.png" Aspect="AspectFill" TranslationY="70"/>
+                </yummy:PancakeView>
+                <Label Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Start"
+                             Margin="0,40,0,0" Text="Get to know about Covid-19" TextColor="White" FontAttributes="Bold" FontSize="20"/>
+                <StackLayout Grid.Row="2" BackgroundColor="Transparent" Padding="20,0,20,20" Spacing="10">
+                    <Label Text="Symptoms"  Style="{StaticResource MediumTitle}"/>
+                    <Grid ColumnDefinitions="*,*,*" ColumnSpacing="20" HeightRequest="120">
+                        <Frame Grid.Column="0" CornerRadius="10" Padding="0,5">
+                            <StackLayout>
+                                <Image Source="headache.png" Aspect="AspectFit" />
+                                <Label Text="Headache" Style="{StaticResource SmallTitle}"
+                                       HorizontalOptions="Center" VerticalOptions="End"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame Grid.Column="1" CornerRadius="10" Padding="0,5">
+                            <StackLayout>
+                                <Image Source="caugh.png"  Aspect="AspectFit"/>
+                                <Label Text="Caugh" Style="{StaticResource SmallTitle}"
+                                       HorizontalOptions="Center" VerticalOptions="End"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame Grid.Column="2" CornerRadius="10" Padding="0,5">
+                        <StackLayout>
+                                <Image Source="fever.png" Aspect="AspectFit"/>
+                                <Label Text="Fever" Style="{StaticResource SmallTitle}"
+                                       HorizontalOptions="Center" VerticalOptions="End"/>
+                            </StackLayout>
+                        </Frame>
+                    </Grid>
+                    <Label Text="Prevention" Style="{StaticResource MediumTitle}" Margin="0,10,0,0"/>
+                    <StackLayout Spacing="20">
+                        <Frame HeightRequest="150" CornerRadius="20">
+                            <Grid ColumnDefinitions="150,auto" ColumnSpacing="0">
+                                <Image Grid.ColumnSpan="2" HorizontalOptions="Start" Source="wear_mask.png"  Aspect="AspectFit"/>
+                                <StackLayout Grid.Column="1" VerticalOptions="Center" HorizontalOptions="End">
+                                    <Label Text="Wear a face mask" Style="{StaticResource SmallTitle}"/>
+                                    <Label Text="Since the start of the coronavirus outbreak some places have fully embraced wearing facemasks"/>
+                                </StackLayout>
+                            </Grid>
+                        </Frame>
+                        <Frame HeightRequest="150" CornerRadius="20">
+                            <Grid ColumnDefinitions="150,auto" ColumnSpacing="0">
+                                <Image Grid.ColumnSpan="2" HorizontalOptions="Start" Source="wash_hands.png"  Aspect="AspectFit"/>
+                                <StackLayout Grid.Column="1" VerticalOptions="Center" HorizontalOptions="End">
+                                    <Label Text="Wash your hands" Style="{StaticResource SmallTitle}"/>
+                                    <Label Text="Since the start of the coronavirus outbreak some places have fully embraced wearing facemasks"/>
+                                </StackLayout>
+                            </Grid>
+                        </Frame>
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+        </ScrollView>
   </ContentView.Content>
 </ContentView>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Covid19.MDPMaster"
+             BackgroundColor="{StaticResource MainWhite}"
+			 IconImageSource="hamburger.png"
+             Title="Master">
+    <StackLayout>
+        <StackLayout Padding="0,70,0,0" Spacing="20" VerticalOptions="StartAndExpand">
+            <Frame Padding="0" BorderColor="DarkGray" CornerRadius="10"
+                           HeightRequest="75" WidthRequest="75"  
+                           IsClippedToBounds="True" HorizontalOptions="Center">
+                <Image Source="avatar.png" Aspect="AspectFill"/>
+            </Frame>
+            <Label Text="Username" Style="{StaticResource MediumTitle}" HorizontalOptions="Center"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Label Text="Age: " Style="{StaticResource MediumTitle}" />
+                <Label Text="Age" FontSize="18"/>
+            </StackLayout>
+        </StackLayout>
+                <Frame Margin="0" Padding="0" BackgroundColor="Transparent" VerticalOptions="End">
+            <StackLayout Orientation="Horizontal" Padding="20,0" Spacing="20" HeightRequest="60">
+                <Image Source="mdp_login.png" VerticalOptions="Center"
+                             WidthRequest="20" HeightRequest="20"/>
+                <Label Text="Logout" VerticalOptions="Center" Style="{StaticResource SmallTitle}"/>
+            </StackLayout>
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="LogoutClicked"/>
+            </Frame.GestureRecognizers>
+        </Frame>
+
+    </StackLayout>
+</ContentPage>

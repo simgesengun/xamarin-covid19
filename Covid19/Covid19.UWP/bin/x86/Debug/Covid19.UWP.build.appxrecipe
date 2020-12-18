@@ -91,6 +91,9 @@
     <AppxPackagedFile Include="C:\Users\simge\.nuget\packages\xamarin.forms\4.8.0.1821\lib\uap10.0.16299\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simge\.nuget\packages\xamarin.forms.pancakeview\2.3.0.759\lib\netstandard2.0\Xamarin.Forms.PancakeView.dll">
+      <PackagePath>Xamarin.Forms.PancakeView.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19\bin\Debug\netstandard2.0\Covid19.dll">
       <PackagePath>Covid19.dll</PackagePath>
     </AppxPackagedFile>
@@ -214,20 +217,56 @@
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\avatar.png">
+      <PackagePath>avatar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\caugh.png">
+      <PackagePath>caugh.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\check.png">
       <PackagePath>check.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\check_filled.png">
       <PackagePath>check_filled.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\fever.png">
+      <PackagePath>fever.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\headache.png">
+      <PackagePath>headache.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\main.png">
       <PackagePath>main.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\mdp_login.png">
+      <PackagePath>mdp_login.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\password.png">
       <PackagePath>password.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\password_hide.png">
       <PackagePath>password_hide.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\tab_home.png">
+      <PackagePath>tab_home.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\tab_local.png">
+      <PackagePath>tab_local.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\tab_prohibitions.png">
+      <PackagePath>tab_prohibitions.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\tab_world.png">
+      <PackagePath>tab_world.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\v_home.png">
+      <PackagePath>v_home.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\wash_hands.png">
+      <PackagePath>wash_hands.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\wear_mask.png">
+      <PackagePath>wear_mask.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
