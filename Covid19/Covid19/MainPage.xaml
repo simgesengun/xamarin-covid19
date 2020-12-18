@@ -1,24 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Covid19.MainPage">
+             x:Class="Covid19.MainPage"
+             xmlns:tabs="clr-namespace:Sharpnado.Tabs;assembly=Sharpnado.Tabs"
+             xmlns:sh="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
+             xmlns:views="clr-namespace:Covid19.Views">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="BottomTabStyle" TargetType="tabs:BottomTabItem">
+                <Setter Property="IsTextVisible" Value="False" />
+                <Setter Property="IconSize" Value="36" />
+                <Setter Property="SelectedTabColor" Value="{x:DynamicResource MainOrange}" />
+                <Setter Property="UnselectedIconColor" Value="#606060" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid RowDefinitions="*,70" x:Name="GridContainer"
+              RowSpacing="0"
+              ColumnSpacing="0">
+            <tabs:ViewSwitcher x:Name="Switcher"
+                       Grid.Row="0"
+                       Animate="False"
+                       SelectedIndex="{Binding SelectedViewModelIndex, 
+                                               Mode=TwoWay}">
+                <views:Home BindingContext="{Binding Home}" />
+                <views:Prohibitions BindingContext="{Binding Prohibitions}" />
+                <views:Local BindingContext="{Binding Local}" />
+                <views:World BindingContext="{Binding World}" />
+            </tabs:ViewSwitcher>
+            <sh:Shadows Grid.Row="1" Shades="{sh:SingleShade Offset='0, -0.1',
+                                    Opacity=0.5,
+                                    Color=DarkGray}">
+                <tabs:TabHostView x:Name="TabHost"
+                              Grid.Row="1" BackgroundColor="{x:DynamicResource MainWhite}"
+                              SelectedIndex="{Binding Source={x:Reference Switcher}, Path=SelectedIndex, Mode=TwoWay}"
+                              TabType="Fixed">
+                    <tabs:TabHostView.Tabs>
+                        <tabs:BottomTabItem Style="{StaticResource BottomTabStyle}"
+                                        IconImageSource="tab_home.png"
+                                        x:Name="Home"/>
 
-    <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
-    </StackLayout>
+                        <tabs:BottomTabItem Style="{StaticResource BottomTabStyle}"
+                                        IconImageSource="tab_prohibitions.png" 
+                                        x:Name="Prohibitions"/>
+
+                        <tabs:BottomTabItem Style="{StaticResource BottomTabStyle}"
+                                        IconImageSource="tab_local.png"
+                                        x:Name="Local"/>
+
+                        <tabs:BottomTabItem Style="{StaticResource BottomTabStyle}"
+                                        IconImageSource="tab_world.png"
+                                        x:Name="World"/>
+                    </tabs:TabHostView.Tabs>
+                </tabs:TabHostView>
+            </sh:Shadows>
+        </Grid>
+    </ContentPage.Content>
 
 </ContentPage>

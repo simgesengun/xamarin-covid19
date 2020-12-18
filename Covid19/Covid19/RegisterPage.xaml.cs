@@ -16,5 +16,18 @@ namespace Covid19
         {
             InitializeComponent();
         }
+        void passwordEye(object sender, EventArgs e)
+        {
+            if (passwordEntry.IsPassword)
+            {
+                passwordImg.Source = "password.png";
+                passwordEntry.IsPassword = false;
+            }
+            else
+            {
+                passwordImg.Source = "password_hide.png";
+                passwordEntry.IsPassword = true;
+            }
+        }
     }
 }

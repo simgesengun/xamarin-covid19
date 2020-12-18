@@ -1,7 +1,10 @@
-﻿using System;
+﻿using Sharpnado.Shades.UWP;
+using Sharpnado.Tabs.Uwp;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
@@ -39,6 +42,12 @@ namespace Covid19.UWP
         /// <param name="e">Details about the launch request and process.</param>
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
+            this.Suspending += OnSuspending; var rendererAssemblies = new[]
+ {
+        typeof(UWPShadowsRenderer).GetTypeInfo().Assembly,
+        typeof(UwpTintableImageEffect).GetTypeInfo().Assembly,
+    };
+            Xamarin.Forms.Forms.Init(e, rendererAssemblies);
 #if DEBUG
             if (System.Diagnostics.Debugger.IsAttached)
             {

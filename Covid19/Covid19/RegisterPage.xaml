@@ -1,12 +1,75 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Covid19.RegisterPage">
+             x:Class="Covid19.RegisterPage"
+             xmlns:cn="clr-namespace:Covid19.Converters"
+             xmlns:vm="clr-namespace:Covid19.Models">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="EntryFrame" TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="BorderColor" Value="DarkGray"/>
+                <Setter Property="HeightRequest" Value="50"/>
+                <Setter Property="CornerRadius" Value="20"/>
+                <Setter Property="Padding" Value="0"/>
+                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+            </Style>
+            <Style x:Key="Entry" TargetType="Entry">
+                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+                <Setter Property="ClearButtonVisibility" Value="WhileEditing"/>
+                <Setter Property="IsSpellCheckEnabled" Value="False"/>
+            </Style>
+            <cn:BoolToIconConverter x:Key="BoolToIconConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout Padding="30,70,30,70" Spacing="20" BackgroundColor="White">
+                <StackLayout.BindingContext>
+                    <vm:RegisterViewModel/>
+                </StackLayout.BindingContext>
+                <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+                    <Label HorizontalTextAlignment="Center"
+                           Text="Register" FontSize="38" TextColor="Black"/>
+                    <Label HorizontalTextAlignment="Center"
+                           Text="Enter your details for your profile information"/>
+                </StackLayout>
+                <Frame>
+                    <StackLayout Orientation="Horizontal" Padding="15,0,5,0">
+                        <Entry Text="{Binding Username}"
+                               Placeholder="Username"/>
+                        <ImageButton BackgroundColor="Transparent"
+                                     HorizontalOptions="End" WidthRequest="35"
+                                     Source="{Binding isValidUsername, Converter={StaticResource BoolToIconConverter}}"/>
+                    </StackLayout>
+                </Frame>
+                <Label Text="Username must be between 3-9 characters. No special characters except '_' and '-' and the username can't start or end with them."/>
+                <Frame>
+                    <StackLayout Orientation="Horizontal" Padding="15,0">
+                        <Entry Text="{Binding Email}"
+                               Keyboard="Email" Placeholder="Email"
+                               TextTransform="Lowercase" ReturnType="Next"/>
+                        <ImageButton BackgroundColor="Transparent"
+                                     HorizontalOptions="End" WidthRequest="35"
+                                     Source="{Binding isValidEmail, Converter={StaticResource BoolToIconConverter}}"/>
+                    </StackLayout>
+                </Frame>
+                <Frame>
+                    <StackLayout Orientation="Horizontal" Padding="15,0">
+                        <Entry x:Name="passwordEntry" Text="{Binding Password}"
+                               IsPassword="true" Placeholder="Password"/>
+                        <ImageButton x:Name="passwordImg" BackgroundColor="Transparent"
+                                     HorizontalOptions="End" WidthRequest="35"
+                                     Source="password_hide.png" Clicked="passwordEye"/>
+                    </StackLayout>
+                </Frame>
+                <Frame Padding="15,0">
+                    <Entry Text="{Binding Dob}"
+                           Placeholder="Date of Birth (dd/mm/yyyy)"
+                           ReturnType="Done"/>
+                </Frame>
+                <Button Text="REGISTER" Command="{Binding RegisterCommand}"/>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

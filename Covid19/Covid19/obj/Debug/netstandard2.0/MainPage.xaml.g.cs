@@ -17,8 +17,36 @@ namespace Covid19 {
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Grid GridContainer;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Sharpnado.Tabs.ViewSwitcher Switcher;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Sharpnado.Tabs.TabHostView TabHost;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Sharpnado.Tabs.BottomTabItem Home;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Sharpnado.Tabs.BottomTabItem Prohibitions;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Sharpnado.Tabs.BottomTabItem Local;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Sharpnado.Tabs.BottomTabItem World;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
+            GridContainer = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Grid>(this, "GridContainer");
+            Switcher = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Sharpnado.Tabs.ViewSwitcher>(this, "Switcher");
+            TabHost = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Sharpnado.Tabs.TabHostView>(this, "TabHost");
+            Home = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Sharpnado.Tabs.BottomTabItem>(this, "Home");
+            Prohibitions = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Sharpnado.Tabs.BottomTabItem>(this, "Prohibitions");
+            Local = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Sharpnado.Tabs.BottomTabItem>(this, "Local");
+            World = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Sharpnado.Tabs.BottomTabItem>(this, "World");
         }
     }
 }

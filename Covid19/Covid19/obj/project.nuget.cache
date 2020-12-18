@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7mar4onCQPNVbWReZwx/wgxo6BzVuFJFuGlhA0rDT93Ob/mkntxfGR0pGFYv60NrXV2Yl7aD9x++3XbLNFjbAQ==",
+  "dgSpecHash": "XQ7zmALHOYy6Os1QEz7smTdByftX8l9oZsHkvGtxNPweI29D19GzqQvx/QcBzStEg6vX4ZGWskg8wbo5HMxCuw==",
   "success": true,
   "projectFilePath": "D:\\_coding\\GitHub\\xamarin-covid19\\Covid19\\Covid19\\Covid19.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,15 @@
     "C:\\Users\\simge\\.nuget\\packages\\sharpnado.shadows\\1.2.0\\sharpnado.shadows.1.2.0.nupkg.sha512",
     "C:\\Users\\simge\\.nuget\\packages\\sharpnado.tabs\\2.0.1\\sharpnado.tabs.2.0.1.nupkg.sha512",
     "C:\\Users\\simge\\.nuget\\packages\\sharpnado.taskmonitor\\1.0.1\\sharpnado.taskmonitor.1.0.1.nupkg.sha512",
+    "C:\\Users\\simge\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "C:\\Users\\simge\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "C:\\Users\\simge\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "C:\\Users\\simge\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.3\\sqlitepclraw.lib.e_sqlite3.2.0.3.nupkg.sha512",
+    "C:\\Users\\simge\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.3\\sqlitepclraw.provider.e_sqlite3.2.0.3.nupkg.sha512",
+    "C:\\Users\\simge\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\simge\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\simge\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\simge\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\simge\\.nuget\\packages\\thomaslevesque.weakevent\\4.1.0\\thomaslevesque.weakevent.4.1.0.nupkg.sha512",
     "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Users\\simge\\.nuget\\packages\\xamarin.forms\\4.8.0.1821\\xamarin.forms.4.8.0.1821.nupkg.sha512"

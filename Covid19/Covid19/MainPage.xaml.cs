@@ -13,6 +13,8 @@ namespace Covid19
         public MainPage()
         {
             InitializeComponent();
+
+            TabHost.SelectedIndex = 0;
         }
     }
 }

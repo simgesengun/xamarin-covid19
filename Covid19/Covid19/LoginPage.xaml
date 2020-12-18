@@ -3,10 +3,50 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Covid19.LoginPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <Grid Padding="30,70,30,70" RowDefinitions="*,auto,auto,auto,auto" RowSpacing="20" ColumnSpacing="1" BackgroundColor="White">
+                <Image Grid.Row="0" Source="main.png"
+                       HeightRequest="250"
+                       HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+
+                <StackLayout Grid.Row="1" HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+                    <Label HorizontalTextAlignment="Center"
+                           Text="Login" FontSize="38" TextColor="Black"/>
+                    <Label HorizontalTextAlignment="Center"
+                           Text="Enter your login details to access your account"/>
+                </StackLayout>
+                <Frame Grid.Row="2">
+                    <StackLayout Orientation="Horizontal" Padding="15,0">
+                        <Entry x:Name="emailEntry"
+                               Keyboard="Email" Placeholder="Email" TextChanged="emailCheck"
+                               TextTransform="Lowercase"  ReturnType="Next"/>
+                        <ImageButton x:Name="emailImg" BackgroundColor="Transparent"
+                                     HorizontalOptions="End" WidthRequest="35" Source="check.png"/>
+                    </StackLayout>
+                </Frame>
+
+                <Frame Grid.Row="3">
+                    <StackLayout Orientation="Horizontal" Padding="15,0">
+                        <Entry x:Name="passwordEntry"
+                               IsPassword="true" Placeholder="Password"
+                               ReturnType="Done"/>
+                        <ImageButton x:Name="passwordImg" BackgroundColor="Transparent"
+                                     HorizontalOptions="End" WidthRequest="35"
+                                     Source="password_hide.png" Clicked="passwordEye"/>
+                    </StackLayout>
+                </Frame>
+                <StackLayout Grid.Row="4" VerticalOptions="EndAndExpand">
+                    <Button x:Name="LoginButton" Text="LOGIN" Clicked="OnLoginButtonClicked"/>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+                        <Label Text="Not registered?"/>
+                        <Label x:Name="SignUp" Text="Sign Up Here!" FontAttributes="Bold" TextColor="#404040">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnSignUpButtonClicked" NumberOfTapsRequired="1" />
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
