@@ -18,7 +18,7 @@ namespace Covid19
         {
             InitializeComponent();
             // uncomment below line to see existing users
-            getUsers();
+            //getUsers();
         }
         async void OnSignUpButtonClicked(object sender, EventArgs e)
         {
@@ -44,7 +44,12 @@ namespace Covid19
                 User user = await App.Database.GetUserAsync(nameEntry.Text, passwordEntry.Text);
                 passwordEntry.Text = string.Empty;
                 nameEntry.Text = string.Empty;
-                await Navigation.PushModalAsync(new MDP());
+
+                Application.Current.Properties["age"] = calculateAge(user.dob);
+                Application.Current.Properties["username"] = user.username;
+                await App.Current.SavePropertiesAsync();
+                Application.Current.MainPage = new MDP();
+                await Navigation.PopToRootAsync();
             }
             else
             {
@@ -84,6 +89,23 @@ namespace Covid19
                 Regex.IsMatch(name, @"^(?!.*[-_]{2,})(?=^[^-_].*[^-_]$)[\w\s-]{3,9}$"))
                 return true;
             else return false;
+        }
+
+        int calculateAge(DateTime dob)
+        {
+
+            int age = DateTime.Now.Year - dob.Year;
+            int months = dob.Month - DateTime.Now.Month;
+            if (months > 0)
+            {
+                age -= 1;
+            }
+            else if (months == 0)
+                if (dob.Day - DateTime.Now.Day > 0)
+                    age -= 1;
+
+            return age;
+
         }
     }
 }

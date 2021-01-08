@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Covid19.LoginPage">
+             x:Class="Covid19.LoginPage"
+             BackgroundColor="GhostWhite">
     <ContentPage.Resources>
 
         <Style TargetType="Frame">
@@ -15,51 +16,49 @@
         </Style>
     </ContentPage.Resources>
     <ContentPage.Content>
-        <ScrollView>
-            <Grid Padding="30,70,30,70" RowDefinitions="*,auto,auto,auto,auto" RowSpacing="20" ColumnSpacing="1" BackgroundColor="White">
-                <Image Grid.Row="0" Source="main.png"
+        <Grid Padding="30,40,30,40" RowDefinitions="*,auto,auto,auto,auto" RowSpacing="10" ColumnSpacing="1">
+            <Image Grid.Row="0" Source="main.png"
                        HeightRequest="250"
                        HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
 
-                <StackLayout Grid.Row="1" HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
-                    <Label HorizontalTextAlignment="Center"
+            <StackLayout Grid.Row="1" HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+                <Label HorizontalTextAlignment="Center"
                            Text="Login"
                            Style="{StaticResource Title}"/>
-                    <Label HorizontalTextAlignment="Center"
+                <Label HorizontalTextAlignment="Center"
                            Text="Enter your login details to access your account"/>
-                </StackLayout>
-                <Frame Grid.Row="2">
-                    <StackLayout Orientation="Horizontal" Padding="15,0">
-                        <Entry x:Name="nameEntry"
+            </StackLayout>
+            <Frame Grid.Row="2">
+                <StackLayout Orientation="Horizontal" Padding="15,0">
+                    <Entry x:Name="nameEntry"
                                Keyboard="Email" Placeholder="Email or Username" TextChanged="nameCheck"
                                TextTransform="Lowercase"  ReturnType="Next"/>
-                        <ImageButton x:Name="emailImg" BackgroundColor="Transparent"
+                    <ImageButton x:Name="emailImg" BackgroundColor="Transparent"
                                      HorizontalOptions="End" WidthRequest="35" Source="check.png"/>
-                    </StackLayout>
-                </Frame>
+                </StackLayout>
+            </Frame>
 
-                <Frame Grid.Row="3">
-                    <StackLayout Orientation="Horizontal" Padding="15,0">
-                        <Entry x:Name="passwordEntry"
+            <Frame Grid.Row="3">
+                <StackLayout Orientation="Horizontal" Padding="15,0">
+                    <Entry x:Name="passwordEntry"
                                IsPassword="true" Placeholder="Password"
                                ReturnType="Done"/>
-                        <ImageButton x:Name="passwordImg" BackgroundColor="Transparent"
+                    <ImageButton x:Name="passwordImg" BackgroundColor="Transparent"
                                      HorizontalOptions="End" WidthRequest="35"
                                      Source="password_hide.png" Clicked="passwordEye"/>
-                    </StackLayout>
-                </Frame>
-                <StackLayout Grid.Row="4" VerticalOptions="EndAndExpand">
-                    <Button x:Name="LoginButton" Text="Login" Clicked="OnLoginButtonClicked"/>
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="End">
-                        <Label Text="Not registered?"/>
-                        <Label x:Name="SignUp" Text="Sign Up Here!" FontFamily="PoppinsBold" TextColor="#404040">
-                            <Label.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="OnSignUpButtonClicked" NumberOfTapsRequired="1" />
-                            </Label.GestureRecognizers>
-                        </Label>
-                    </StackLayout>
                 </StackLayout>
-            </Grid>
-        </ScrollView>
+            </Frame>
+            <StackLayout Grid.Row="4" VerticalOptions="EndAndExpand">
+                <Button x:Name="LoginButton" Text="Login" Clicked="OnLoginButtonClicked"/>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+                    <Label Text="Not registered?"/>
+                    <Label x:Name="SignUp" Text="Sign Up Here!" FontFamily="PoppinsBold" TextColor="#404040">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnSignUpButtonClicked" NumberOfTapsRequired="1" />
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

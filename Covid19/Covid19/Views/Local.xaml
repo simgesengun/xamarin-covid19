@@ -2,7 +2,8 @@
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Covid19.Views.Local"
-             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView">
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             BackgroundColor="GhostWhite">
     <ContentView.Resources>
         <Style x:Key="SmallTitle" TargetType="Label">
             <Setter Property="TextColor" Value="#505050" />
@@ -25,14 +26,14 @@
     </ContentView.Resources>
     <ContentView.Content>
         <ScrollView>
-            <Grid RowDefinitions="250,auto" RowSpacing="15">
+            <Grid RowDefinitions="250,auto" RowSpacing="10">
                 <yummy:PancakeView Grid.Row="0"
                                    CornerRadius="0,0,100,100" BackgroundColor="{x:DynamicResource MainBlue}"
                                    HeightRequest="250" Padding="0" Margin="0">
-                    <Image Source="v_local.png" TranslationY="90"/>
+                    <Image Source="v_local.png" TranslationY="60"/>
                 </yummy:PancakeView>
                 <Label Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Start"
-                             Margin="0,40,0,0" Text="Local Statistics" TextColor="White" FontAttributes="Bold" FontSize="20"/>
+                             Margin="0,20,0,0" Text="Local Statistics" TextColor="White" FontAttributes="Bold" FontSize="20"/>
                 <Grid Grid.Row="2" ColumnDefinitions="*,*" BackgroundColor="Transparent" Padding="20,0,20,20">
                     <Frame Grid.Column="0" CornerRadius="20" Padding="10">
                         <StackLayout HorizontalOptions="Center">

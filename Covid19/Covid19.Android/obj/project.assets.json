@@ -2445,11 +2445,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\_coding\\GitHub\\xamarin-covid19\\Covid19\\Covid19.Android\\Covid19.Android.csproj",
+      "projectUniqueName": "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19.Android\\Covid19.Android.csproj",
       "projectName": "Covid19.Android",
-      "projectPath": "D:\\_coding\\GitHub\\xamarin-covid19\\Covid19\\Covid19.Android\\Covid19.Android.csproj",
+      "projectPath": "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19.Android\\Covid19.Android.csproj",
       "packagesPath": "C:\\Users\\simge\\.nuget\\packages\\",
-      "outputPath": "D:\\_coding\\GitHub\\xamarin-covid19\\Covid19\\Covid19.Android\\obj\\",
+      "outputPath": "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2470,8 +2470,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "D:\\_coding\\GitHub\\xamarin-covid19\\Covid19\\Covid19\\Covid19.csproj": {
-              "projectPath": "D:\\_coding\\GitHub\\xamarin-covid19\\Covid19\\Covid19\\Covid19.csproj"
+            "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19\\Covid19.csproj": {
+              "projectPath": "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19\\Covid19.csproj"
             }
           }
         }

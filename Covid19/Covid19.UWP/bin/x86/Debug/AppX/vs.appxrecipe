@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=41c1051a-e4b2-4131-9b7a-0e67f2376cb9</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>2423E7A2C7C38502A5474043F7A19DB5BA3E87928E7B05194E72933416ABC1D4</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>84a3e783-2feb-4163-8d01-cd7474810708_1.0.0.0_x86__frhex29crwtcm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>84a3e783-2feb-4163-8d01-cd7474810708_frhex29crwtcm!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T19:39:48.408</Modified>
+      <Modified>2021-01-08T14:02:56.272</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\bin\x86\Debug\Covid19.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\bin\x86\Debug\Covid19.UWP.exe">
       <PackagePath>entrypoint\Covid19.UWP.exe</PackagePath>
-      <Modified>2020-12-18T19:39:44.689</Modified>
+      <Modified>2021-01-08T14:02:53.845</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\simge\.nuget\packages\compositionprotoolkit\1.0.1\runtimes\win10-x86\native\CompositionDeviceHelper.dll">
       <PackagePath>CompositionDeviceHelper.dll</PackagePath>
@@ -126,9 +126,9 @@
       <PackagePath>Xamarin.Forms.PancakeView.dll</PackagePath>
       <Modified>2020-10-23T08:51:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19\bin\Debug\netstandard2.0\Covid19.dll">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19\bin\Debug\netstandard2.0\Covid19.dll">
       <PackagePath>Covid19.dll</PackagePath>
-      <Modified>2020-12-18T19:39:35.213</Modified>
+      <Modified>2021-01-08T14:08:40.794</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\simge\.nuget\packages\compositionprotoolkit\1.0.1\runtimes\win10-x86\lib\uap10.0\CompositionDeviceHelper.winmd">
       <PackagePath>CompositionDeviceHelper.winmd</PackagePath>
@@ -146,224 +146,256 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2020-12-16T20:32:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.130</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.142</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.149</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.319</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.326</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.338</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.342</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.350</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.359</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.369</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.377</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.385</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.392</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.400</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.410</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.416</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.424</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.611</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.625</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.629</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.636</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.652</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.662</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.669</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.677</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.685</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-18T07:59:45.693</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\avatar.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\avatar.png">
       <PackagePath>avatar.png</PackagePath>
-      <Modified>2020-12-18T13:15:50.409</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\caugh.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\caugh.png">
       <PackagePath>caugh.png</PackagePath>
-      <Modified>2020-12-18T19:39:25.363</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\check.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\check.png">
       <PackagePath>check.png</PackagePath>
-      <Modified>2020-12-18T10:29:10.306</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\check_filled.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\check_filled.png">
       <PackagePath>check_filled.png</PackagePath>
-      <Modified>2020-12-18T10:29:10.369</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\fever.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\fever.png">
       <PackagePath>fever.png</PackagePath>
-      <Modified>2020-12-18T19:39:25.414</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\headache.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\f_china.png">
+      <PackagePath>f_china.png</PackagePath>
+      <Modified>2021-01-08T12:58:10.367</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\f_france.png">
+      <PackagePath>f_france.png</PackagePath>
+      <Modified>2021-01-08T12:58:10.455</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\f_germany.png">
+      <PackagePath>f_germany.png</PackagePath>
+      <Modified>2021-01-08T12:58:10.485</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\f_india.png">
+      <PackagePath>f_india.png</PackagePath>
+      <Modified>2021-01-08T12:58:10.515</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\f_italy.png">
+      <PackagePath>f_italy.png</PackagePath>
+      <Modified>2021-01-08T12:58:10.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\f_turkey.png">
+      <PackagePath>f_turkey.png</PackagePath>
+      <Modified>2021-01-08T12:58:10.583</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\f_uk.png">
+      <PackagePath>f_uk.png</PackagePath>
+      <Modified>2021-01-08T12:58:10.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\f_usa.png">
+      <PackagePath>f_usa.png</PackagePath>
+      <Modified>2021-01-08T12:58:10.642</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\headache.png">
       <PackagePath>headache.png</PackagePath>
-      <Modified>2020-12-18T19:39:25.464</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\main.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\main.png">
       <PackagePath>main.png</PackagePath>
-      <Modified>2020-12-18T19:39:26.300</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\mdp_login.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\mdp_login.png">
       <PackagePath>mdp_login.png</PackagePath>
-      <Modified>2020-12-18T13:15:50.460</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\password.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\password.png">
       <PackagePath>password.png</PackagePath>
-      <Modified>2020-12-18T10:29:10.428</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\password_hide.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\password_hide.png">
       <PackagePath>password_hide.png</PackagePath>
-      <Modified>2020-12-18T10:29:10.527</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\tab_home.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\tab_home.png">
       <PackagePath>tab_home.png</PackagePath>
-      <Modified>2020-12-18T19:39:26.784</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\tab_local.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\tab_local.png">
       <PackagePath>tab_local.png</PackagePath>
-      <Modified>2020-12-18T19:39:27.200</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\tab_prohibitions.png">
-      <PackagePath>tab_prohibitions.png</PackagePath>
-      <Modified>2020-12-18T19:39:27.605</Modified>
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\tab_curfew.png">
+      <PackagePath>tab_curfew.png</PackagePath>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\tab_world.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\tab_world.png">
       <PackagePath>tab_world.png</PackagePath>
-      <Modified>2020-12-18T19:39:28.041</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\v_home.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\v_home.png">
       <PackagePath>v_home.png</PackagePath>
-      <Modified>2020-12-18T19:39:28.047</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\wash_hands.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\wash_hands.png">
       <PackagePath>wash_hands.png</PackagePath>
-      <Modified>2020-12-18T19:39:28.096</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\wear_mask.png">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\wear_mask.png">
       <PackagePath>wear_mask.png</PackagePath>
-      <Modified>2020-12-18T19:39:28.141</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-12-18T07:59:45.715</Modified>
+      <Modified>2020-12-18T20:34:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\bin\x86\Debug\Covid19.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\bin\x86\Debug\Covid19.UWP.xr.xml">
       <PackagePath>Covid19.UWP.xr.xml</PackagePath>
-      <Modified>2020-12-18T08:01:35.680</Modified>
+      <Modified>2021-01-07T18:10:30.800</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-12-18T19:39:44.578</Modified>
+      <Modified>2021-01-08T14:02:53.745</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-12-18T19:39:44.578</Modified>
+      <Modified>2021-01-08T14:02:53.745</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -377,13 +409,13 @@
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2020-05-19T06:27:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-12-18T19:39:46.128</Modified>
+      <Modified>2021-01-08T12:59:12.947</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_coding\GitHub\xamarin-covid19\Covid19\Covid19.UWP\bin\x86\Debug\Core\Covid19.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\bin\x86\Debug\Core\Covid19.UWP.exe">
       <PackagePath>Covid19.UWP.exe</PackagePath>
-      <Modified>2020-12-18T19:39:48.384</Modified>
+      <Modified>2021-01-08T14:02:56.245</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

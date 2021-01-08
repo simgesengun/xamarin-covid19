@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Covid19.RegisterPage"
              xmlns:cn="clr-namespace:Covid19.Converters"
-             xmlns:vm="clr-namespace:Covid19.Models">
+             xmlns:vm="clr-namespace:Covid19.Models"
+             BackgroundColor="GhostWhite">
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style TargetType="Frame">
@@ -19,54 +20,52 @@
         </ResourceDictionary>
     </ContentPage.Resources>
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout Padding="30,70,30,70" Spacing="20" BackgroundColor="White">
-                <StackLayout.BindingContext>
-                    <vm:RegisterViewModel/>
-                </StackLayout.BindingContext>
-                <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
-                    <Label HorizontalTextAlignment="Center"
+        <StackLayout Padding="30,40" Spacing="10" VerticalOptions="CenterAndExpand">
+            <StackLayout.BindingContext>
+                <vm:RegisterViewModel/>
+            </StackLayout.BindingContext>
+            <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+                <Label HorizontalTextAlignment="Center"
                            Text="Register"
                            Style="{StaticResource Title}"/>
-                    <Label HorizontalTextAlignment="Center"
+                <Label HorizontalTextAlignment="Center"
                            Text="Enter your details for your profile information"/>
-                </StackLayout>
-                <Frame>
-                    <StackLayout Orientation="Horizontal" Padding="15,0">
-                        <Entry Text="{Binding Username}"
+            </StackLayout>
+            <Frame>
+                <StackLayout Orientation="Horizontal" Padding="15,0">
+                    <Entry Text="{Binding Username}"
                                Placeholder="Username"/>
-                        <ImageButton BackgroundColor="Transparent"
+                    <ImageButton BackgroundColor="Transparent"
                                      HorizontalOptions="End" WidthRequest="35"
                                      Source="{Binding isValidUsername, Converter={StaticResource BoolToIconConverter}}"/>
-                    </StackLayout>
-                </Frame>
-                <Label Text="Username must be between 3-9 characters. No special characters except '_' and '-' and the username can't start or end with them."/>
-                <Frame>
-                    <StackLayout Orientation="Horizontal" Padding="15,0">
-                        <Entry Text="{Binding Email}"
+                </StackLayout>
+            </Frame>
+            <Label Text="Username must be between 3-9 characters. No special characters except '_' and '-' and the username can't start or end with them."/>
+            <Frame>
+                <StackLayout Orientation="Horizontal" Padding="15,0">
+                    <Entry Text="{Binding Email}"
                                Keyboard="Email" Placeholder="Email"
                                TextTransform="Lowercase" ReturnType="Next"/>
-                        <ImageButton BackgroundColor="Transparent"
+                    <ImageButton BackgroundColor="Transparent"
                                      HorizontalOptions="End" WidthRequest="35"
                                      Source="{Binding isValidEmail, Converter={StaticResource BoolToIconConverter}}"/>
-                    </StackLayout>
-                </Frame>
-                <Frame>
-                    <StackLayout Orientation="Horizontal" Padding="15,0">
-                        <Entry x:Name="passwordEntry" Text="{Binding Password}"
+                </StackLayout>
+            </Frame>
+            <Frame>
+                <StackLayout Orientation="Horizontal" Padding="15,0">
+                    <Entry x:Name="passwordEntry" Text="{Binding Password}"
                                IsPassword="true" Placeholder="Password"/>
-                        <ImageButton x:Name="passwordImg" BackgroundColor="Transparent"
+                    <ImageButton x:Name="passwordImg" BackgroundColor="Transparent"
                                      HorizontalOptions="End" WidthRequest="35"
                                      Source="password_hide.png" Clicked="passwordEye"/>
-                    </StackLayout>
-                </Frame>
-                <Frame Padding="15,0">
-                    <Entry Text="{Binding Dob}"
+                </StackLayout>
+            </Frame>
+            <Frame Padding="15,0">
+                <Entry Text="{Binding Dob}"
                            Placeholder="Date of Birth (dd/mm/yyyy)"
                            ReturnType="Done"/>
-                </Frame>
-                <Button Text="Register" Command="{Binding RegisterCommand}"/>
-            </StackLayout>
-        </ScrollView>
+            </Frame>
+            <Button Text="Register" Command="{Binding RegisterCommand}"/>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

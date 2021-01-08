@@ -3,6 +3,7 @@ using System.IO;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Covid19.Data;
+using Covid19.Views;
 
 [assembly: ExportFont("Poppins-Bold.ttf", Alias = "PoppinsBold")]
 [assembly: ExportFont("Poppins-Italic.ttf", Alias = "PoppinsItalic")]
@@ -31,8 +32,7 @@ namespace Covid19
             Sharpnado.Tabs.Initializer.Initialize(loggerEnable: false, debugLogEnable: false);
             Sharpnado.Shades.Initializer.Initialize(loggerEnable: false);
             var nav = new NavigationPage(new LoginPage());
-            nav.BarBackgroundColor = Color.White;
-            nav.BackgroundColor = Color.White;
+            nav.BarBackgroundColor = Color.GhostWhite;
             MainPage = nav;
         }
 

@@ -1933,11 +1933,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\_coding\\GitHub\\xamarin-covid19\\Covid19\\Covid19.iOS\\Covid19.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19.iOS\\Covid19.iOS.csproj",
       "projectName": "Covid19.iOS",
-      "projectPath": "D:\\_coding\\GitHub\\xamarin-covid19\\Covid19\\Covid19.iOS\\Covid19.iOS.csproj",
+      "projectPath": "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19.iOS\\Covid19.iOS.csproj",
       "packagesPath": "C:\\Users\\simge\\.nuget\\packages\\",
-      "outputPath": "D:\\_coding\\GitHub\\xamarin-covid19\\Covid19\\Covid19.iOS\\obj\\",
+      "outputPath": "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1958,8 +1958,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\_coding\\GitHub\\xamarin-covid19\\Covid19\\Covid19\\Covid19.csproj": {
-              "projectPath": "D:\\_coding\\GitHub\\xamarin-covid19\\Covid19\\Covid19\\Covid19.csproj"
+            "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19\\Covid19.csproj": {
+              "projectPath": "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19\\Covid19.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1Fh2unakvkE1yKrKZ9QYVLqoSZfkEWtUh0HgSxB+FLb2Gg9ZjfMBMST9VlkeN2yXJkMa2+697OyMdyZoipXV/g==",
+  "dgSpecHash": "2S2HChOTBVF150IxDnyKyMzv3pN+G5ScR88eKuQbUhficILp5G0bUnZMigwlXXQxWCtougA2pQsCtieCDFpB6g==",
   "success": true,
-  "projectFilePath": "D:\\_coding\\GitHub\\xamarin-covid19\\Covid19\\Covid19\\Covid19.csproj",
+  "projectFilePath": "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19\\Covid19.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\simge\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\simge\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

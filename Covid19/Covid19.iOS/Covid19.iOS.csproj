@@ -157,4 +157,73 @@
   <ItemGroup>
     <BundleResource Include="Resources\avatar.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\caugh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\f_china.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\f_france.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\f_germany.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\f_india.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\f_italy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\f_turkey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\f_uk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\f_usa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fever.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\headache.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\main.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mdp_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tab_curfew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tab_home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tab_local.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tab_world.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\wash_hands.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\wear_mask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\v_home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\v_curfew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\v_local.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\v_world.png" />
+  </ItemGroup>
 </Project>

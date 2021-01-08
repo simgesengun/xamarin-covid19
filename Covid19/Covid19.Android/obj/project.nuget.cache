@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ue8b5bn1qSp3D8i2d+jxQJzheox10ShtHsBVhv3J/tU/ExY73s843boD1+v1SORY9ZbfjptamkCJmVEbuMjMeA==",
+  "dgSpecHash": "XT4TvmwMU7xkPmHJ87qxyxdRyFhwyj/1AxTYRpPx9fOpZWwlHXvZkUcJfgxzcuX2rabOwj3H4bdxNa8eicRcxA==",
   "success": true,
-  "projectFilePath": "D:\\_coding\\GitHub\\xamarin-covid19\\Covid19\\Covid19.Android\\Covid19.Android.csproj",
+  "projectFilePath": "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19.Android\\Covid19.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\simge\\.nuget\\packages\\sharpnado.shadows\\1.2.0\\sharpnado.shadows.1.2.0.nupkg.sha512",
     "C:\\Users\\simge\\.nuget\\packages\\sharpnado.tabs\\2.0.1\\sharpnado.tabs.2.0.1.nupkg.sha512",

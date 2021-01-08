@@ -20,6 +20,14 @@ namespace Covid19
         public MDPMaster()
         {
             InitializeComponent();
+            if (Application.Current.Properties.ContainsKey("age"))
+            {
+                age.Text = Application.Current.Properties["age"].ToString();
+            }
+            if (Application.Current.Properties.ContainsKey("username"))
+            {
+                username.Text = Application.Current.Properties["username"] as string;
+            }
         }
 
         async void LogoutClicked(object sender, EventArgs e)

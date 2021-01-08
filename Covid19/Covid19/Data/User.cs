@@ -12,6 +12,6 @@ namespace Covid19.Data
         public string username { get; set; }
         public string email { get; set; }
         public string password { get; set; }
-        public string dob { get; set; }
+        public DateTime dob { get; set; }
     }
 }

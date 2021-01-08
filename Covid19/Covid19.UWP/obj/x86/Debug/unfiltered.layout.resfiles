@@ -32,6 +32,14 @@ MainPage.xbf
 caugh.png
 check.png
 check_filled.png
+f_china.png
+f_france.png
+f_germany.png
+f_india.png
+f_italy.png
+f_turkey.png
+f_uk.png
+f_usa.png
 fever.png
 headache.png
 main.png
@@ -39,9 +47,9 @@ mdp_login.png
 password.png
 password_hide.png
 Properties\Default.rd.xml
+tab_curfew.png
 tab_home.png
 tab_local.png
-tab_prohibitions.png
 tab_world.png
 v_home.png
 wash_hands.png

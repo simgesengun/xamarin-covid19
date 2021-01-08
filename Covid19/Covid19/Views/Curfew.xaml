@@ -2,40 +2,49 @@
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Covid19.Views.Curfew"
-             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView">
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             BackgroundColor="GhostWhite">
     <ContentView.Resources>
         <Style x:Key="Title" TargetType="Label">
             <Setter Property="TextColor" Value="#202020" />
             <Setter Property="FontFamily" Value="PoppinsBold"/>
-            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="FontSize" Value="18"/>
             <Setter Property="HorizontalOptions" Value="Center"/>
             <Setter Property="VerticalOptions" Value="Center"/>
         </Style>
     </ContentView.Resources>
     <ContentView.Content>
-        <Grid RowDefinitions="250,auto" RowSpacing="15">
+        <ScrollView>
+        <Grid RowDefinitions="250,auto" RowSpacing="10">
             <yummy:PancakeView Grid.Row="0"
                                    CornerRadius="0,0,100,100" BackgroundColor="{x:DynamicResource MainBlue}"
                                    HeightRequest="250" Padding="0" Margin="0">
-                <Image Source="v_curfew.png" TranslationY="90"/>
+                <Image Source="v_curfew.png" TranslationY="40"/>
             </yummy:PancakeView>
             <Label Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Start"
-                             Margin="0,40,0,0" Text="When can i go out?" TextColor="White" FontAttributes="Bold" FontSize="20"/>
+                             Margin="0,20,0,0" Text="When can i go out?" TextColor="White" FontAttributes="Bold" FontSize="20"/>
             <StackLayout Grid.Row="2" Margin="20,0,20,20" VerticalOptions="Center" Spacing="10">
-                <Label Text="Your age: 67" Style="{StaticResource Title}" FontSize="18"/>
-                <Entry Placeholder="Look for an another age" Keyboard="Numeric"/>
-                <StackLayout Spacing="30">
-                    <Frame CornerRadius="20" Padding="20,10" BackgroundColor="LightGreen">
+                <Label x:Name="yourAge" Style="{StaticResource Title}"/>
+                <StackLayout Orientation="Horizontal" Spacing="4">
+                    <Label Text="Look for an another age:" Style="{StaticResource Title}" VerticalOptions="CenterAndExpand"/>
+                    <Entry x:Name="entryAge" Keyboard="Numeric" TextChanged="Age_Completed" />
+                </StackLayout>
+                <StackLayout Spacing="20">
+                    <Frame CornerRadius="20" Padding="20,10" BackgroundColor="DarkRed" x:Name="morning">
                         <Label Text="10:00 - 13:00" Style="{StaticResource Title}"/>
                     </Frame>
-                    <Frame CornerRadius="20" Padding="20,10" BackgroundColor="IndianRed">
+                        <Frame CornerRadius="20" Padding="20,10" BackgroundColor="DarkRed" x:Name="afternoon">
                         <Label Text="13:00 - 16:00" Style="{StaticResource Title}"/>
                     </Frame>
-                    <Frame CornerRadius="20" Padding="20,10" BackgroundColor="IndianRed">
+                        <Frame CornerRadius="20" Padding="20,10" BackgroundColor="DarkRed" x:Name="evening">
                         <Label Text="16:00 - 10:00" Style="{StaticResource Title}"/>
+                    </Frame>
+                        <Frame CornerRadius="20" Padding="20,10" BackgroundColor="DarkRed" x:Name="night">
+                        <Label Text="16:00 - 21:00" Style="{StaticResource Title}"/>
                     </Frame>
                 </StackLayout>
             </StackLayout>
         </Grid>
+        </ScrollView>
     </ContentView.Content>
 </ContentView>

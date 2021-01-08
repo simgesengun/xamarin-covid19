@@ -135,6 +135,14 @@
     <Content Include="check.png" />
     <Content Include="check_filled.png" />
     <Content Include="fever.png" />
+    <Content Include="f_china.png" />
+    <Content Include="f_france.png" />
+    <Content Include="f_germany.png" />
+    <Content Include="f_india.png" />
+    <Content Include="f_italy.png" />
+    <Content Include="f_turkey.png" />
+    <Content Include="f_uk.png" />
+    <Content Include="f_usa.png" />
     <Content Include="headache.png" />
     <Content Include="main.png" />
     <Content Include="mdp_login.png" />
@@ -145,7 +153,10 @@
     <Content Include="tab_local.png" />
     <Content Include="tab_curfew.png" />
     <Content Include="tab_world.png" />
+    <Content Include="v_curfew.png" />
     <Content Include="v_home.png" />
+    <Content Include="v_local.png" />
+    <Content Include="v_world.png" />
     <Content Include="wash_hands.png" />
     <Content Include="wear_mask.png" />
   </ItemGroup>

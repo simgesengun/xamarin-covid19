@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7pMh3SUxIEJrRdrKNFwp1g54wk5zwd+kIMV7/k8DkQv75NDYf2sId7gWHx6SNzubill4A80PvmUTaFgfBLlU9A==",
+  "dgSpecHash": "x2CL2c5SqZBs+U2h5u4BJmmL6djgx05RPeV3V4KBgMKMTj/ws77u7Yye49hvUGWHpdXKR6nqxzjvQ3AyKJZgSg==",
   "success": true,
-  "projectFilePath": "D:\\_coding\\GitHub\\xamarin-covid19\\Covid19\\Covid19.UWP\\Covid19.UWP.csproj",
+  "projectFilePath": "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19.UWP\\Covid19.UWP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\simge\\.nuget\\packages\\compositionprotoolkit\\1.0.1\\compositionprotoolkit.1.0.1.nupkg.sha512",
     "C:\\Users\\simge\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.9-rel-29512-01\\microsoft.net.native.compiler.2.2.9-rel-29512-01.nupkg.sha512",

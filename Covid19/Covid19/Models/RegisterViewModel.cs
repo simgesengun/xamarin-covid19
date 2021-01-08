@@ -115,16 +115,17 @@ namespace Covid19.Models
             {
                 if (await Validate())
                 {
+                    var dob = Dob.Split('/');
                     await App.Database.SaveUserAsync(new User
                     {
                         username = Username,
                         email = Email,
                         password = Password,
-                        dob = Dob,
+                        dob = new DateTime(int.Parse(dob[2]), int.Parse(dob[1]), int.Parse(dob[0]), 01, 00, 00, 00)
                     });
                     success = "You have registered successfully!";
                     //uncomment below line to see more info about this user
-                    success += "\nUsername: " + Username + "\nEmail: " + Email + "\nPassword: " + Password + "\nDOB: " + Dob;
+                    //success += "\nUsername: " + Username + "\nEmail: " + Email + "\nPassword: " + Password + "\nDOB: " + Dob;
                     await App.Current.MainPage.DisplayAlert("Register", success, "OK");
                     await App.Current.MainPage.Navigation.PopAsync();
                 }

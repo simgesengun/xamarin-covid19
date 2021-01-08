@@ -34,7 +34,7 @@
                                     Opacity=0.5,
                                     Color=DarkGray}">
                 <tabs:TabHostView x:Name="TabHost"
-                              Grid.Row="1" BackgroundColor="{x:DynamicResource MainWhite}"
+                              Grid.Row="1" BackgroundColor="White"
                               SelectedIndex="{Binding Source={x:Reference Switcher}, Path=SelectedIndex, Mode=TwoWay}"
                               TabType="Fixed">
                     <tabs:TabHostView.Tabs>
