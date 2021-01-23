@@ -24,13 +24,41 @@
     <ContentView.Content>
         <ScrollView>
             <Grid RowDefinitions="250,auto" RowSpacing="10">
-                <yummy:PancakeView Grid.Row="0"
+                <OnPlatform x:TypeArguments="View">
+                    <OnPlatform.iOS>
+                        <yummy:PancakeView Grid.Row="0"
                                    CornerRadius="0,0,100,100" BackgroundColor="{x:DynamicResource MainBlue}"
                                    HeightRequest="250" Padding="0" Margin="0">
-                    <Image Source="v_world.png" TranslationY="60"/>
-                </yummy:PancakeView>
-                <Label Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Start"
+                            <Image Source="v_world.png" TranslationY="60"/>
+                        </yummy:PancakeView>
+                    </OnPlatform.iOS>
+                    <OnPlatform.Android>
+                        <yummy:PancakeView Grid.Row="0"
+                                   CornerRadius="0,0,100,100" BackgroundColor="{x:DynamicResource MainBlue}"
+                                   HeightRequest="250" Padding="0" Margin="0">
+                            <Image Source="v_world.png" TranslationY="60"/>
+                        </yummy:PancakeView>
+                    </OnPlatform.Android>
+                    <OnPlatform.WinPhone>
+                        <yummy:PancakeView Grid.Row="0"
+                                   CornerRadius="0,0,100,100" BackgroundColor="{x:DynamicResource MainBlue}"
+                                   HeightRequest="250" Padding="0" Margin="0"/>
+                    </OnPlatform.WinPhone>
+                </OnPlatform>
+                <OnPlatform x:TypeArguments="View">
+                    <OnPlatform.iOS>
+                        <Label Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Start"
                              Margin="0,20,0,0" Text="World Statistics" TextColor="White" FontAttributes="Bold" FontSize="20"/>
+                    </OnPlatform.iOS>
+                    <OnPlatform.Android>
+                        <Label Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Start"
+                             Margin="0,20,0,0" Text="World Statistics" TextColor="White" FontAttributes="Bold" FontSize="20"/>
+                    </OnPlatform.Android>
+                    <OnPlatform.WinPhone>
+                        <Label Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center"
+                             Text="World Statistics" TextColor="White" FontAttributes="Bold" FontSize="20"/>
+                    </OnPlatform.WinPhone>
+                </OnPlatform>
                 <StackLayout Grid.Row="2" Margin="20,0,20,20">
                     <Grid ColumnDefinitions="40,*,52,52,52" ColumnSpacing="10" Padding="20,0">
                         <Label Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Start"

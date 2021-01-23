@@ -51,7 +51,10 @@ tab_curfew.png
 tab_home.png
 tab_local.png
 tab_world.png
+v_curfew.png
 v_home.png
+v_local.png
+v_world.png
 wash_hands.png
 wear_mask.png
 WinMetadata\Windows.winmd

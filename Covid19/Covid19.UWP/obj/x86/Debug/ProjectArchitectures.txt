@@ -1,1 +1,1 @@
-C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19.UWP\Covid19.UWP.csproj;x86
+C:\Users\simge\Downloads\xamarin-covid19\xamarin-covid19\Covid19\Covid19.UWP\Covid19.UWP.csproj;x86

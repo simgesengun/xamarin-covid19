@@ -32,7 +32,7 @@ namespace Covid19
 
         async void LogoutClicked(object sender, EventArgs e)
         {
-            await this.Navigation.PopModalAsync();
+            await DisplayAlert("Logout", "Logout Clicked", "OK");
         }
     }
 }

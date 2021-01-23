@@ -78,3 +78,69 @@ C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19\obj\Debug\netstand
 C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19\obj\Debug\netstandard2.0\Covid19.dll
 C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19\obj\Debug\netstandard2.0\ref\Covid19.dll
 C:\Users\simge\Downloads\xamarin-covid19-main\Covid19\Covid19\obj\Debug\netstandard2.0\Covid19.pdb
+C:\Users\burak\Desktop\xamarin-covid19-main (1)\xamarin-covid19-main\Covid19\Covid19\bin\Debug\netstandard2.0\Covid19.deps.json
+C:\Users\burak\Desktop\xamarin-covid19-main (1)\xamarin-covid19-main\Covid19\Covid19\bin\Debug\netstandard2.0\Covid19.dll
+C:\Users\burak\Desktop\xamarin-covid19-main (1)\xamarin-covid19-main\Covid19\Covid19\bin\Debug\netstandard2.0\ref\Covid19.dll
+C:\Users\burak\Desktop\xamarin-covid19-main (1)\xamarin-covid19-main\Covid19\Covid19\bin\Debug\netstandard2.0\Covid19.pdb
+C:\Users\burak\Desktop\xamarin-covid19-main (1)\xamarin-covid19-main\Covid19\Covid19\obj\Debug\netstandard2.0\Covid19.csprojAssemblyReference.cache
+C:\Users\burak\Desktop\xamarin-covid19-main (1)\xamarin-covid19-main\Covid19\Covid19\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\burak\Desktop\xamarin-covid19-main (1)\xamarin-covid19-main\Covid19\Covid19\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\burak\Desktop\xamarin-covid19-main (1)\xamarin-covid19-main\Covid19\Covid19\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\burak\Desktop\xamarin-covid19-main (1)\xamarin-covid19-main\Covid19\Covid19\obj\Debug\netstandard2.0\MDP.xaml.g.cs
+C:\Users\burak\Desktop\xamarin-covid19-main (1)\xamarin-covid19-main\Covid19\Covid19\obj\Debug\netstandard2.0\MDPMaster.xaml.g.cs
+C:\Users\burak\Desktop\xamarin-covid19-main (1)\xamarin-covid19-main\Covid19\Covid19\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
+C:\Users\burak\Desktop\xamarin-covid19-main (1)\xamarin-covid19-main\Covid19\Covid19\obj\Debug\netstandard2.0\Views\Curfew.xaml.g.cs
+C:\Users\burak\Desktop\xamarin-covid19-main (1)\xamarin-covid19-main\Covid19\Covid19\obj\Debug\netstandard2.0\Views\Home.xaml.g.cs
+C:\Users\burak\Desktop\xamarin-covid19-main (1)\xamarin-covid19-main\Covid19\Covid19\obj\Debug\netstandard2.0\Views\Local.xaml.g.cs
+C:\Users\burak\Desktop\xamarin-covid19-main (1)\xamarin-covid19-main\Covid19\Covid19\obj\Debug\netstandard2.0\Views\World.xaml.g.cs
+C:\Users\burak\Desktop\xamarin-covid19-main (1)\xamarin-covid19-main\Covid19\Covid19\obj\Debug\netstandard2.0\Covid19.AssemblyInfoInputs.cache
+C:\Users\burak\Desktop\xamarin-covid19-main (1)\xamarin-covid19-main\Covid19\Covid19\obj\Debug\netstandard2.0\Covid19.AssemblyInfo.cs
+C:\Users\burak\Desktop\xamarin-covid19-main (1)\xamarin-covid19-main\Covid19\Covid19\obj\Debug\netstandard2.0\Covid19.csproj.CoreCompileInputs.cache
+C:\Users\burak\Desktop\xamarin-covid19-main (1)\xamarin-covid19-main\Covid19\Covid19\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\burak\Desktop\xamarin-covid19-main (1)\xamarin-covid19-main\Covid19\Covid19\obj\Debug\netstandard2.0\Covid19.dll
+C:\Users\burak\Desktop\xamarin-covid19-main (1)\xamarin-covid19-main\Covid19\Covid19\obj\Debug\netstandard2.0\ref\Covid19.dll
+C:\Users\burak\Desktop\xamarin-covid19-main (1)\xamarin-covid19-main\Covid19\Covid19\obj\Debug\netstandard2.0\Covid19.pdb
+C:\Users\simge\Downloads\xamarin-covid19\xamarin-covid19\Covid19\Covid19\bin\Debug\netstandard2.0\Covid19.deps.json
+C:\Users\simge\Downloads\xamarin-covid19\xamarin-covid19\Covid19\Covid19\bin\Debug\netstandard2.0\Covid19.dll
+C:\Users\simge\Downloads\xamarin-covid19\xamarin-covid19\Covid19\Covid19\bin\Debug\netstandard2.0\ref\Covid19.dll
+C:\Users\simge\Downloads\xamarin-covid19\xamarin-covid19\Covid19\Covid19\bin\Debug\netstandard2.0\Covid19.pdb
+C:\Users\simge\Downloads\xamarin-covid19\xamarin-covid19\Covid19\Covid19\obj\Debug\netstandard2.0\Covid19.csprojAssemblyReference.cache
+C:\Users\simge\Downloads\xamarin-covid19\xamarin-covid19\Covid19\Covid19\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\simge\Downloads\xamarin-covid19\xamarin-covid19\Covid19\Covid19\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\simge\Downloads\xamarin-covid19\xamarin-covid19\Covid19\Covid19\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\simge\Downloads\xamarin-covid19\xamarin-covid19\Covid19\Covid19\obj\Debug\netstandard2.0\MDP.xaml.g.cs
+C:\Users\simge\Downloads\xamarin-covid19\xamarin-covid19\Covid19\Covid19\obj\Debug\netstandard2.0\MDPMaster.xaml.g.cs
+C:\Users\simge\Downloads\xamarin-covid19\xamarin-covid19\Covid19\Covid19\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
+C:\Users\simge\Downloads\xamarin-covid19\xamarin-covid19\Covid19\Covid19\obj\Debug\netstandard2.0\Views\Curfew.xaml.g.cs
+C:\Users\simge\Downloads\xamarin-covid19\xamarin-covid19\Covid19\Covid19\obj\Debug\netstandard2.0\Views\Home.xaml.g.cs
+C:\Users\simge\Downloads\xamarin-covid19\xamarin-covid19\Covid19\Covid19\obj\Debug\netstandard2.0\Views\Local.xaml.g.cs
+C:\Users\simge\Downloads\xamarin-covid19\xamarin-covid19\Covid19\Covid19\obj\Debug\netstandard2.0\Views\World.xaml.g.cs
+C:\Users\simge\Downloads\xamarin-covid19\xamarin-covid19\Covid19\Covid19\obj\Debug\netstandard2.0\Covid19.AssemblyInfoInputs.cache
+C:\Users\simge\Downloads\xamarin-covid19\xamarin-covid19\Covid19\Covid19\obj\Debug\netstandard2.0\Covid19.AssemblyInfo.cs
+C:\Users\simge\Downloads\xamarin-covid19\xamarin-covid19\Covid19\Covid19\obj\Debug\netstandard2.0\Covid19.csproj.CoreCompileInputs.cache
+C:\Users\simge\Downloads\xamarin-covid19\xamarin-covid19\Covid19\Covid19\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\simge\Downloads\xamarin-covid19\xamarin-covid19\Covid19\Covid19\obj\Debug\netstandard2.0\Covid19.dll
+C:\Users\simge\Downloads\xamarin-covid19\xamarin-covid19\Covid19\Covid19\obj\Debug\netstandard2.0\ref\Covid19.dll
+C:\Users\simge\Downloads\xamarin-covid19\xamarin-covid19\Covid19\Covid19\obj\Debug\netstandard2.0\Covid19.pdb
+D:\_okul\4.1\Mobile Programming I\Traco\Covid19\Covid19\bin\Debug\netstandard2.0\Covid19.deps.json
+D:\_okul\4.1\Mobile Programming I\Traco\Covid19\Covid19\bin\Debug\netstandard2.0\Covid19.dll
+D:\_okul\4.1\Mobile Programming I\Traco\Covid19\Covid19\bin\Debug\netstandard2.0\ref\Covid19.dll
+D:\_okul\4.1\Mobile Programming I\Traco\Covid19\Covid19\bin\Debug\netstandard2.0\Covid19.pdb
+D:\_okul\4.1\Mobile Programming I\Traco\Covid19\Covid19\obj\Debug\netstandard2.0\Covid19.csprojAssemblyReference.cache
+D:\_okul\4.1\Mobile Programming I\Traco\Covid19\Covid19\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\_okul\4.1\Mobile Programming I\Traco\Covid19\Covid19\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+D:\_okul\4.1\Mobile Programming I\Traco\Covid19\Covid19\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\_okul\4.1\Mobile Programming I\Traco\Covid19\Covid19\obj\Debug\netstandard2.0\MDP.xaml.g.cs
+D:\_okul\4.1\Mobile Programming I\Traco\Covid19\Covid19\obj\Debug\netstandard2.0\MDPMaster.xaml.g.cs
+D:\_okul\4.1\Mobile Programming I\Traco\Covid19\Covid19\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
+D:\_okul\4.1\Mobile Programming I\Traco\Covid19\Covid19\obj\Debug\netstandard2.0\Views\Curfew.xaml.g.cs
+D:\_okul\4.1\Mobile Programming I\Traco\Covid19\Covid19\obj\Debug\netstandard2.0\Views\Home.xaml.g.cs
+D:\_okul\4.1\Mobile Programming I\Traco\Covid19\Covid19\obj\Debug\netstandard2.0\Views\Local.xaml.g.cs
+D:\_okul\4.1\Mobile Programming I\Traco\Covid19\Covid19\obj\Debug\netstandard2.0\Views\World.xaml.g.cs
+D:\_okul\4.1\Mobile Programming I\Traco\Covid19\Covid19\obj\Debug\netstandard2.0\Covid19.AssemblyInfoInputs.cache
+D:\_okul\4.1\Mobile Programming I\Traco\Covid19\Covid19\obj\Debug\netstandard2.0\Covid19.AssemblyInfo.cs
+D:\_okul\4.1\Mobile Programming I\Traco\Covid19\Covid19\obj\Debug\netstandard2.0\Covid19.csproj.CoreCompileInputs.cache
+D:\_okul\4.1\Mobile Programming I\Traco\Covid19\Covid19\obj\Debug\netstandard2.0\XamlC.stamp
+D:\_okul\4.1\Mobile Programming I\Traco\Covid19\Covid19\obj\Debug\netstandard2.0\Covid19.dll
+D:\_okul\4.1\Mobile Programming I\Traco\Covid19\Covid19\obj\Debug\netstandard2.0\ref\Covid19.dll
+D:\_okul\4.1\Mobile Programming I\Traco\Covid19\Covid19\obj\Debug\netstandard2.0\Covid19.pdb

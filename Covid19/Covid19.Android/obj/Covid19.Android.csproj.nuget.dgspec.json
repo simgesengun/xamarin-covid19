@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19.Android\\Covid19.Android.csproj": {}
+    "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19.Android\\Covid19.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19.Android\\Covid19.Android.csproj": {
+    "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19.Android\\Covid19.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19.Android\\Covid19.Android.csproj",
+        "projectUniqueName": "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19.Android\\Covid19.Android.csproj",
         "projectName": "Covid19.Android",
-        "projectPath": "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19.Android\\Covid19.Android.csproj",
+        "projectPath": "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19.Android\\Covid19.Android.csproj",
         "packagesPath": "C:\\Users\\simge\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19.Android\\obj\\",
+        "outputPath": "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19\\Covid19.csproj": {
-                "projectPath": "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19\\Covid19.csproj"
+              "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19\\Covid19.csproj": {
+                "projectPath": "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19\\Covid19.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19\\Covid19.csproj": {
+    "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19\\Covid19.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19\\Covid19.csproj",
+        "projectUniqueName": "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19\\Covid19.csproj",
         "projectName": "Covid19",
-        "projectPath": "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19\\Covid19.csproj",
+        "projectPath": "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19\\Covid19.csproj",
         "packagesPath": "C:\\Users\\simge\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19\\obj\\",
+        "outputPath": "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"

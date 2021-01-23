@@ -11691,11 +11691,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19.UWP\\Covid19.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19.UWP\\Covid19.UWP.csproj",
       "projectName": "Covid19.UWP",
-      "projectPath": "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19.UWP\\Covid19.UWP.csproj",
+      "projectPath": "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19.UWP\\Covid19.UWP.csproj",
       "packagesPath": "C:\\Users\\simge\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19.UWP\\obj\\",
+      "outputPath": "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -11717,8 +11717,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19\\Covid19.csproj": {
-              "projectPath": "C:\\Users\\simge\\Downloads\\xamarin-covid19-main\\Covid19\\Covid19\\Covid19.csproj"
+            "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19\\Covid19.csproj": {
+              "projectPath": "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19\\Covid19.csproj"
             }
           }
         }
