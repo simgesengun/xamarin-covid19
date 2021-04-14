@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19.iOS\\Covid19.iOS.csproj": {}
+    "D:\\_projects\\xamarin-covid19\\Covid19\\Covid19.iOS\\Covid19.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19.iOS\\Covid19.iOS.csproj": {
+    "D:\\_projects\\xamarin-covid19\\Covid19\\Covid19.iOS\\Covid19.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19.iOS\\Covid19.iOS.csproj",
+        "projectUniqueName": "D:\\_projects\\xamarin-covid19\\Covid19\\Covid19.iOS\\Covid19.iOS.csproj",
         "projectName": "Covid19.iOS",
-        "projectPath": "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19.iOS\\Covid19.iOS.csproj",
+        "projectPath": "D:\\_projects\\xamarin-covid19\\Covid19\\Covid19.iOS\\Covid19.iOS.csproj",
         "packagesPath": "C:\\Users\\simge\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19.iOS\\obj\\",
+        "outputPath": "D:\\_projects\\xamarin-covid19\\Covid19\\Covid19.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19\\Covid19.csproj": {
-                "projectPath": "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19\\Covid19.csproj"
+              "D:\\_projects\\xamarin-covid19\\Covid19\\Covid19\\Covid19.csproj": {
+                "projectPath": "D:\\_projects\\xamarin-covid19\\Covid19\\Covid19\\Covid19.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19\\Covid19.csproj": {
+    "D:\\_projects\\xamarin-covid19\\Covid19\\Covid19\\Covid19.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19\\Covid19.csproj",
+        "projectUniqueName": "D:\\_projects\\xamarin-covid19\\Covid19\\Covid19\\Covid19.csproj",
         "projectName": "Covid19",
-        "projectPath": "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19\\Covid19.csproj",
+        "projectPath": "D:\\_projects\\xamarin-covid19\\Covid19\\Covid19\\Covid19.csproj",
         "packagesPath": "C:\\Users\\simge\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\simge\\Desktop\\final-assignment-simgesengun\\Covid19\\Covid19\\obj\\",
+        "outputPath": "D:\\_projects\\xamarin-covid19\\Covid19\\Covid19\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -154,7 +154,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
